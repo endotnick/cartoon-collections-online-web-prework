@@ -3,7 +3,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.map {|el| el = el.titlize << '!'}
+  arr.map {|el| el = el.capitalize << '!'}
 end
 
 def long_planeteer_calls(arr)
